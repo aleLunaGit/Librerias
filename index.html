@@ -4,12 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Document</title>
 </head>
 <body>
     
-    <script src="/java.js">
+    <h1>Solicitudes de préstamos</h1>
 
-    </script>
+    <div id="formPre" class="formPre">
+        <label id="">Nombre:</label>
+        <input type="text" name="" id="nameP" placeholder="NOMBRE"><br><br>
+        <label id="">Apellido:</label>
+        <input type="text" name="" id="surP" placeholder="APELLIDO"><br><br>
+        <label id="">DNI:</label>
+        <input type="text" name="" id="dniP" placeholder="DNI"><br><br>
+        <label id="">Veraz:</label>
+        <input type="text" name="" id="verazP" placeholder="SIT DE VERAZ"><br><br>
+        <label id="">Monto de préstamo:</label>
+        <input type="text" name="" id="montoP" placeholder="MONTO A SOLICITAR"><br><br>
+        <label id="">Plazo:</label>
+        <input type="text" name="" id="plazoP" placeholder="PLAZO DE ENTREGA"><br><br>
+    </div>
+
+    <div id="registroPre" class="registroPre">
+        <h2>Cliente</h2>
+        <div id="cliente" class="cliente">
+            
+        </div>
+    </div>
+
+    <button id="guardarP">SOLICITAR</button>
+    <button id="registroP">REGISTRO DE SOLICITUDES</button>
+    <button id="lastP">ULTIMA SOLICITUD</button>
+
+    <script src="java.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.all.min.js"></script>
 </body>
 </html>
